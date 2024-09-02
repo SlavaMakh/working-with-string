@@ -7,7 +7,7 @@ namespace SlavaMakhov\WorkingWithString;
 class StringProcessor
 {
     /**
-     * Возвращает строку без других символов и цифр
+     * Удаляет из строки символы и цифры
      *
      * @param string $text
      *
@@ -15,6 +15,6 @@ class StringProcessor
      */
     public function getCleanString(string $text): string
     {
-        return preg_replace('/[^a-zа-яё\d]/ui/', '', $text);
+        return preg_replace('/[^a-zA-Zа-яА-яёЁ]+/u', '', $text);
     }
 }
