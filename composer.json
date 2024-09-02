@@ -1,0 +1,15 @@
+{
+    "name": "slava-makhov/working-with-string",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "SlavaMakhov\\WorkingWithString\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SlavaMakhov"
+        }
+    ],
+    "require": {}
+}
