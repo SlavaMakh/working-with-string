@@ -8,7 +8,7 @@
 
 ## Установка
 
-composer require SlavaMakh/working-with-string
+composer require slava-makhov/working-with-string
 
 ## Использование
 
