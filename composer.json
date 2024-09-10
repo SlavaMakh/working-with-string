@@ -11,5 +11,7 @@
             "name": "SlavaMakhov"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=5.6"
+    }
 }
